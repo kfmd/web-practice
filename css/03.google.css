@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    text-align: left; /* meng-align semua elemen inline (tidak block, tidak ada margin auto) ke kiri. */
 }
 
 svg {
@@ -12,7 +13,7 @@ svg {
 
 input {
     box-sizing: border-box;
-    display: block;
+    display: block; /* block = full horizontal dipakai / full */
     border-radius: 24px;
     border: 1px solid rgb(223, 225, 229);
     height: 44px;
